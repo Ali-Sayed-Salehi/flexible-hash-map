@@ -1,4 +1,4 @@
-# flexible-hash-map
+# Flexible Hash Map
 A hash map implementation that support two different collision handling schemes and some new methods
 
 ## Project details
@@ -9,7 +9,7 @@ We design and implement a hash method that would accept the account numbers (key
 2. Display the total number of collisions
 3. Display the total number of probes.
 
-### Our hashTable ADT additionally implement the following methods:
+### The hashTable ADT additionally implements the following methods:
 
 **setRehashThreshold(loadFactor):** where 0 ≤ loadFactor ≤ 1 is a real number that defines when the table should be extended, i.e., if the hash table’s load factor is greater than or equal to value of loadFactor. We use a load factor of 0.7 but vary this value down to 0.5 in order to find an optimal measure for each collision handling scheme.
 
